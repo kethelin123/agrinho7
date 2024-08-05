@@ -1,0 +1,43 @@
+</head>
+<body>
+    <header>
+        <h1>Agrinho - Tecnologia no Agronegócio</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>O Agrinho Tecnologia no Agronegócio visa revolucionar o setor agrícola através da aplicação de novas tecnologias.</p>
+        </section>
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Consultoria em tecnologia para agricultura</li>
+                <li>Desenvolvimento de soluções IoT para fazendas</li>
+                <li>Análise de dados agrícolas</li>
+                <li>Integração de sistemas de informação</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações, entre em contato conosco:</p>
+            <form action="submit.php" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Agrinho - Tecnologia no Agronegócio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
